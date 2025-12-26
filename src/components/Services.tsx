@@ -5,22 +5,22 @@ const services = [
     {
         icon: <Building2 className="w-8 h-8 text-secondary" />,
         title: "Commercial Construction",
-        description: "Office buildings, retail centers, and industrial facilities."
+        description: "Offices, retail centers, and industrial hubs."
     },
     {
         icon: <Ruler className="w-8 h-8 text-secondary" />,
         title: "Infrastructure Development",
-        description: "Roads, utilities, and public works projects."
+        description: "Roads, utilities, and large-scale public works."
     },
     {
         icon: <HardHat className="w-8 h-8 text-secondary" />,
         title: "Project Management",
-        description: "End-to-end planning and execution oversight."
+        description: "Complete end-to-end planning and oversight."
     },
     {
         icon: <Hammer className="w-8 h-8 text-secondary" />,
         title: "Renovation & Fit-out",
-        description: "Modernizing spaces for optimal performance."
+        description: "Modernizing spaces for peak performance."
     }
 ];
 

@@ -13,9 +13,9 @@ function App() {
         <div className="min-h-screen bg-white">
             <Header />
             <Hero />
+            <Trust />
             <Services />
             <MidPageCTA />
-            <Trust />
             <Projects />
             <Contact />
             <Footer />
