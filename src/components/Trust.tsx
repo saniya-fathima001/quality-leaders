@@ -3,23 +3,32 @@ import { CalendarCheck, MapPin, Award } from 'lucide-react';
 
 const Trust: React.FC = () => {
     return (
-        <section className="py-12 bg-white border-y border-gray-100">
+        <section className="py-8 bg-white border-y border-gray-100">
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div className="flex flex-col items-center text-center">
-                        <CalendarCheck className="w-12 h-12 text-secondary mb-3" />
-                        <h3 className="text-3xl font-bold text-primary mb-1">15+</h3>
-                        <p className="text-gray-600 font-medium">Years of Experience</p>
+                <div className="text-center mb-6">
+                    <h3 className="text-xl font-bold text-primary">Why Trust Us</h3>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="flex items-center justify-center gap-3 md:flex-col md:text-center">
+                        <CalendarCheck className="w-8 h-8 text-secondary flex-shrink-0" />
+                        <div className="text-left md:text-center">
+                            <h3 className="text-xl font-bold text-primary">15+ Years</h3>
+                            <p className="text-gray-600 text-sm">Experience</p>
+                        </div>
                     </div>
-                    <div className="flex flex-col items-center text-center">
-                        <Award className="w-12 h-12 text-secondary mb-3" />
-                        <h3 className="text-3xl font-bold text-primary mb-1">200+</h3>
-                        <p className="text-gray-600 font-medium">Projects Delivered</p>
+                    <div className="flex items-center justify-center gap-3 md:flex-col md:text-center">
+                        <Award className="w-8 h-8 text-secondary flex-shrink-0" />
+                        <div className="text-left md:text-center">
+                            <h3 className="text-xl font-bold text-primary">200+ Projects</h3>
+                            <p className="text-gray-600 text-sm">Delivered</p>
+                        </div>
                     </div>
-                    <div className="flex flex-col items-center text-center">
-                        <MapPin className="w-12 h-12 text-secondary mb-3" />
-                        <h3 className="text-lg font-bold text-primary mb-1">Saudi-Wide</h3>
-                        <p className="text-gray-600 font-medium">Market Expertise</p>
+                    <div className="flex items-center justify-center gap-3 md:flex-col md:text-center">
+                        <MapPin className="w-8 h-8 text-secondary flex-shrink-0" />
+                        <div className="text-left md:text-center">
+                            <h3 className="text-lg font-bold text-primary">Saudi-Wide</h3>
+                            <p className="text-gray-600 text-sm">Expertise</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -28,3 +37,4 @@ const Trust: React.FC = () => {
 };
 
 export default Trust;
+

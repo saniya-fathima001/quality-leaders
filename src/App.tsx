@@ -14,9 +14,9 @@ function App() {
             <Header />
             <Hero />
             <Services />
+            <MidPageCTA />
             <Trust />
             <Projects />
-            <MidPageCTA />
             <Contact />
             <Footer />
         </div>
