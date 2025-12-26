@@ -3,7 +3,7 @@ const MidPageCTA: React.FC = () => {
     return (
         <section className="py-16 bg-primary text-white text-center">
             <div className="container mx-auto px-4">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Planning a Project?</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">Planning a Construction Project?</h2>
                 <p className="text-gray-300 mb-8 max-w-lg mx-auto">
                     Let’s discuss your requirements and timeline.
                 </p>

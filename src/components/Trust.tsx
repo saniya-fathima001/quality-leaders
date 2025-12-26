@@ -16,7 +16,7 @@ const Trust: React.FC = () => {
                     </div>
                     <div className="flex items-center justify-center gap-3 py-2 md:py-0">
                         <MapPin className="w-6 h-6 text-secondary flex-shrink-0" />
-                        <span className="text-primary font-bold text-sm md:text-base">Saudi Market Expertise</span>
+                        <span className="text-primary font-bold text-sm md:text-base">Trusted Across Saudi Arabia</span>
                     </div>
                 </div>
             </div>
